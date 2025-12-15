@@ -18,9 +18,13 @@ public static class ModelBuilderExtensions
             entity.ToTable("DataRecord");
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Id).ValueGeneratedOnAdd();
-            
+
             entity.OwnsOne(e => e.PotMacAddress, mac =>
             {
+                // Align the owned type's key with the principal key to avoid
+                // conflicting primary key column names when sharing the table.
+                mac.WithOwner().HasForeignKey("Id");
+                mac.HasKey("Id");
                 mac.Property(m => m.Address).HasColumnName("pot_mac_address").IsRequired();
             });
             

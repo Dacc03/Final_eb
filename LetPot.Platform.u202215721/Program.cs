@@ -16,7 +16,6 @@ using LetPot.Platform.u202215721.Telemetry.Application.Internal.QueryServices;
 using LetPot.Platform.u202215721.Telemetry.Domain.Repositories;
 using LetPot.Platform.u202215721.Telemetry.Domain.Services;
 using LetPot.Platform.u202215721.Telemetry.Infrastructure.Persistence.EFC.Repositories;
-using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,7 +50,8 @@ builder.Services.AddCortexMediator(builder.Configuration, new[] { typeof(Program
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
 
 // Configure OpenAPI/Swagger
-builder.Services.AddEndpointsApiExplorer();
+builder.AddOpenApiDocumentationServices();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
