@@ -1,0 +1,20 @@
+namespace LetPot.Platform.u202215721.Telemetry.Domain.Model.ValueObjects;
+
+/// <summary>
+/// Enumeration representing the operation mode of a pot.
+/// </summary>
+/// <remarks>
+/// Author: Deybbi Caviedes
+/// </remarks>
+public enum EOperationMode
+{
+    /// <summary>
+    /// The pot is in stand by mode.
+    /// </summary>
+    STAND_BY = 0,
+
+    /// <summary>
+    /// The pot is in operating mode.
+    /// </summary>
+    OPERATING = 1
+}
