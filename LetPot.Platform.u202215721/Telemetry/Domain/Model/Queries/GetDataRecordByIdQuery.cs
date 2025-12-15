@@ -5,6 +5,6 @@ namespace LetPot.Platform.u202215721.Telemetry.Domain.Model.Queries;
 /// </summary>
 /// <param name="DataRecordId">The data record identifier.</param>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public record GetDataRecordByIdQuery(int DataRecordId);

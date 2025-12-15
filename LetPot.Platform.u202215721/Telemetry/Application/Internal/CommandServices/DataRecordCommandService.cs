@@ -14,7 +14,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Application.Internal.CommandServi
 /// Service implementation for data record commands.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class DataRecordCommandService(
     IDataRecordRepository dataRecordRepository,

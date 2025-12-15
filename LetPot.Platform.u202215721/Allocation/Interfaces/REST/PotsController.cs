@@ -12,7 +12,7 @@ namespace LetPot.Platform.u202215721.Allocation.Interfaces.REST;
 /// Controller for pot operations.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 [ApiController]
 [Route("api/v1/pots")]

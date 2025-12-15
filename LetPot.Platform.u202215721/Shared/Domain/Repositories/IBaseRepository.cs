@@ -5,7 +5,7 @@ namespace LetPot.Platform.u202215721.Shared.Domain.Repositories;
 /// </summary>
 /// <typeparam name="TEntity">The type of the entity.</typeparam>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IBaseRepository<TEntity>
 {

@@ -4,6 +4,6 @@ namespace LetPot.Platform.u202215721.Allocation.Domain.Model.Queries;
 /// Query to retrieve all pots.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public record GetAllPotsQuery();

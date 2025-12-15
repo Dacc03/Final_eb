@@ -9,7 +9,7 @@ namespace LetPot.Platform.u202215721.Shared.Infrastructure.Persistence.EFC.Repos
 /// </summary>
 /// <typeparam name="TEntity">The type of the entity.</typeparam>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public abstract class BaseRepository<TEntity>(AppDbContext context) : IBaseRepository<TEntity>
     where TEntity : class

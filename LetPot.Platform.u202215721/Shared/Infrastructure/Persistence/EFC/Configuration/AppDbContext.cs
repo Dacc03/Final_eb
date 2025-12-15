@@ -10,7 +10,7 @@ namespace LetPot.Platform.u202215721.Shared.Infrastructure.Persistence.EFC.Confi
 /// The application's database context using Entity Framework Core.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class AppDbContext(DbContextOptions options) : DbContext(options)
 {

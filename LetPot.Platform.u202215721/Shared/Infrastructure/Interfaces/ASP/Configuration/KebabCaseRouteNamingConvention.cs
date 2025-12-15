@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Shared.Infrastructure.Interfaces.ASP.Config
 /// Convention to apply kebab-case naming to routes.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public partial class KebabCaseRouteNamingConvention : IControllerModelConvention
 {

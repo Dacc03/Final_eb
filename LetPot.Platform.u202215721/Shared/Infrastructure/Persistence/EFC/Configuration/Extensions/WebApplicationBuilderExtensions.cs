@@ -9,7 +9,7 @@ namespace LetPot.Platform.u202215721.Shared.Infrastructure.Persistence.EFC.Confi
 /// Extension methods for configuring database services.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public static class WebApplicationBuilderExtensions
 {

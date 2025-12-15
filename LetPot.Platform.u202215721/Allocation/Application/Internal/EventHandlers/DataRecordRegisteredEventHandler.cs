@@ -9,7 +9,7 @@ namespace LetPot.Platform.u202215721.Allocation.Application.Internal.EventHandle
 /// Event handler for DataRecordRegisteredEvent.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class DataRecordRegisteredEventHandler(
     IPotRepository potRepository,

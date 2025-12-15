@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Shared.Infrastructure.Persistence.EFC.Confi
 /// Extension methods for configuring web application.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public static class WebApplicationExtensions
 {

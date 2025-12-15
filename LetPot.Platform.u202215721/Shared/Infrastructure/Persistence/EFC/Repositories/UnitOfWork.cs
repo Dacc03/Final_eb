@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Shared.Infrastructure.Persistence.EFC.Repos
 /// Implementation of the unit of work pattern.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class UnitOfWork(AppDbContext context) : IUnitOfWork
 {

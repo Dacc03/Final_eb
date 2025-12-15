@@ -9,7 +9,7 @@ namespace LetPot.Platform.u202215721.Allocation.Application.Internal.QueryServic
 /// Service implementation for pot queries.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class PotQueryService(IPotRepository potRepository) : IPotQueryService
 {

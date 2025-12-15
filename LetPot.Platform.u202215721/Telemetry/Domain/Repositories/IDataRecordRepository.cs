@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Domain.Repositories;
 /// Repository interface for data records.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IDataRecordRepository : IBaseRepository<DataRecord>
 {

@@ -9,7 +9,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Domain.Model.Aggregates;
 /// Represents a data record from a pot.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class DataRecord : IHasCreatedUpdatedDate
 {
@@ -60,8 +60,7 @@ public class DataRecord : IHasCreatedUpdatedDate
     /// <summary>
     /// Gets the identifier.
     /// </summary>
-    public int Id { get; }
-
+    public int Id { get; private set; }
     /// <summary>
     /// Gets the MAC address of the pot.
     /// </summary>

@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Allocation.Domain.Services;
 /// Service interface for pot queries.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IPotQueryService
 {

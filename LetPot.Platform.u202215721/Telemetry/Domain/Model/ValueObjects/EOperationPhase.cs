@@ -4,7 +4,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Domain.Model.ValueObjects;
 /// Enumeration representing the operation phase of a pot.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public enum EOperationPhase
 {

@@ -8,7 +8,7 @@ namespace LetPot.Platform.u202215721.Allocation.Application.ACL.Services;
 /// Facade for the Allocation context.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class AllocationContextFacade(IPotQueryService potQueryService) : IAllocationContextFacade
 {

@@ -4,7 +4,7 @@ namespace LetPot.Platform.u202215721.Shared.Domain.Model.Events;
 /// Marker interface for domain events.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IEvent
 {

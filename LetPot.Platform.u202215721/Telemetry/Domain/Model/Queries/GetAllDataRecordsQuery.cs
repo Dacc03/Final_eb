@@ -4,6 +4,6 @@ namespace LetPot.Platform.u202215721.Telemetry.Domain.Model.Queries;
 /// Query to retrieve all data records.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public record GetAllDataRecordsQuery();

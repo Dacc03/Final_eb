@@ -5,6 +5,6 @@ namespace LetPot.Platform.u202215721.Allocation.Domain.Model.Queries;
 /// </summary>
 /// <param name="MacAddress">The MAC address.</param>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public record GetPotByMacAddressQuery(string MacAddress);

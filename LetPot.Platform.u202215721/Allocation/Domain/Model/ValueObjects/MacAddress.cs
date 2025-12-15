@@ -7,16 +7,35 @@ namespace LetPot.Platform.u202215721.Allocation.Domain.Model.ValueObjects;
 /// </summary>
 /// <param name="Address">The MAC address string.</param>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
-public partial record MacAddress(string Address)
+public partial record MacAddress
 {
     /// <summary>
-    /// Default constructor for empty MAC address.
+    /// Initializes a new instance of <see cref="MacAddress"/> for EF Core materialization.
     /// </summary>
-    public MacAddress() : this(string.Empty)
+    public MacAddress()
     {
+        Address = string.Empty;
     }
+
+    /// <summary>
+    /// Initializes a new instance of <see cref="MacAddress"/> with validation.
+    /// </summary>
+    /// <param name="address">The MAC address string.</param>
+    /// <exception cref="ArgumentException">Thrown when the address format is invalid.</exception>
+    public MacAddress(string address)
+    {
+        if (!IsValid(address))
+            throw new ArgumentException("Invalid MAC Address format", nameof(address));
+
+        Address = address;
+    }
+
+    /// <summary>
+    /// Gets the normalized MAC address string.
+    /// </summary>
+    public string Address { get; private set; }
 
     /// <summary>
     /// Validates the MAC address format.

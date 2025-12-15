@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Allocation.Infrastructure.Persistence.EFC.C
 /// Extension methods for configuring the Allocation context model.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public static class ModelBuilderExtensions
 {
@@ -18,9 +18,12 @@ public static class ModelBuilderExtensions
             entity.ToTable("Pot");
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Id).ValueGeneratedOnAdd();
-            
+
             entity.OwnsOne(e => e.MacAddress, mac =>
             {
+                mac.WithOwner().HasForeignKey("Id");
+                mac.HasKey("Id");
+                mac.Property<int>("Id").HasColumnName("id");
                 mac.Property(m => m.Address).HasColumnName("mac_address").IsRequired();
             });
             
@@ -63,10 +66,10 @@ public static class ModelBuilderExtensions
 
         // Seed MacAddress separately as owned entity
         builder.Entity<Pot>().OwnsOne(p => p.MacAddress).HasData(
-            new { PotId = 1, Address = "67-E0-B5-2B-DB-67" },
-            new { PotId = 2, Address = "69-3D-91-E2-AA-DC" },
-            new { PotId = 3, Address = "37-AA-35-CE-E6-C2" },
-            new { PotId = 4, Address = "FA-8C-71-C2-C4-79" }
+            new { Id = 1, Address = "67-E0-B5-2B-DB-67" },
+            new { Id = 2, Address = "69-3D-91-E2-AA-DC" },
+            new { Id = 3, Address = "37-AA-35-CE-E6-C2" },
+            new { Id = 4, Address = "FA-8C-71-C2-C4-79" }
         );
     }
 }

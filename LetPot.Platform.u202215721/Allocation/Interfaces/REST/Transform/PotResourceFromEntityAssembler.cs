@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Allocation.Interfaces.REST.Transform;
 /// Assembler to transform Pot entity to PotResource.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public static class PotResourceFromEntityAssembler
 {

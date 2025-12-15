@@ -13,7 +13,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Interfaces.REST;
 /// Controller for data records operations.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 [ApiController]
 [Route("api/v1/data-records")]

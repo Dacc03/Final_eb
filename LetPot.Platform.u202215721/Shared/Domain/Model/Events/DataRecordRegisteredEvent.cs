@@ -8,6 +8,6 @@ namespace LetPot.Platform.u202215721.Shared.Domain.Model.Events;
 /// <param name="PotMacAddress">The MAC address of the pot.</param>
 /// <param name="TargetHumidityLevel">The target humidity level.</param>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public record DataRecordRegisteredEvent(string PotMacAddress, decimal TargetHumidityLevel) : IEvent, INotification;

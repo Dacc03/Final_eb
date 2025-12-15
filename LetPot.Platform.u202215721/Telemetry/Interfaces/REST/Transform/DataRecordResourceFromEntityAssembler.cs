@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Interfaces.REST.Transform;
 /// Assembler to transform DataRecord entity to DataRecordResource.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public static class DataRecordResourceFromEntityAssembler
 {

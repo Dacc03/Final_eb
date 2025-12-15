@@ -8,7 +8,7 @@ namespace LetPot.Platform.u202215721.Allocation.Domain.Model.Aggregates;
 /// Represents a pot in the allocation context.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class Pot : IHasCreatedUpdatedDate
 {
@@ -28,6 +28,11 @@ public class Pot : IHasCreatedUpdatedDate
     /// <param name="preferredHumidityLevel">The preferred humidity level.</param>
     public Pot(MacAddress macAddress, int customerId, decimal preferredHumidityLevel)
     {
+        if (customerId <= 0)
+            throw new ArgumentException("CustomerId must be positive", nameof(customerId));
+
+        if (preferredHumidityLevel <= 0)
+            throw new ArgumentException("Preferred humidity level must be positive", nameof(preferredHumidityLevel));
         MacAddress = macAddress;
         CustomerId = customerId;
         PreferredHumidityLevel = preferredHumidityLevel;
@@ -47,8 +52,8 @@ public class Pot : IHasCreatedUpdatedDate
     /// <summary>
     /// Gets the identifier.
     /// </summary>
-    public int Id { get; }
-
+    public int Id { get; private set; }
+    
     /// <summary>
     /// Gets the MAC address.
     /// </summary>

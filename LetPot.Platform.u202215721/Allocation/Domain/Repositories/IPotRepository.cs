@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Allocation.Domain.Repositories;
 /// Repository interface for pots.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IPotRepository : IBaseRepository<Pot>
 {

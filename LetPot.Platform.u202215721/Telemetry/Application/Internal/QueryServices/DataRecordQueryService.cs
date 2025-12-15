@@ -9,7 +9,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Application.Internal.QueryService
 /// Service implementation for data record queries.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class DataRecordQueryService(IDataRecordRepository dataRecordRepository) : IDataRecordQueryService
 {

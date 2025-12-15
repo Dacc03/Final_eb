@@ -8,7 +8,7 @@ namespace LetPot.Platform.u202215721.Shared.Application.Internal.EventHandlers;
 /// </summary>
 /// <typeparam name="TEvent">The type of event to handle.</typeparam>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IEventHandler<in TEvent> : INotificationHandler<TEvent> where TEvent : IEvent, INotification
 {

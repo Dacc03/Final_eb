@@ -8,7 +8,7 @@ namespace LetPot.Platform.u202215721.Allocation.Interfaces.REST.Resources;
 /// <param name="CustomerId">The customer identifier.</param>
 /// <param name="PreferredHumidityLevel">The preferred humidity level.</param>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public record PotResource(
     int Id,

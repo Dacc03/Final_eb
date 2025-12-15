@@ -11,7 +11,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Interfaces.REST.Resources;
 /// <param name="OperationPhase">The operation phase.</param>
 /// <param name="EmittedAt">The emission date and time.</param>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public record DataRecordResource(
     int Id,

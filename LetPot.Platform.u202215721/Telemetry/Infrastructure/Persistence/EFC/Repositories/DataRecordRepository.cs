@@ -9,7 +9,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Infrastructure.Persistence.EFC.Re
 /// Repository implementation for data records.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class DataRecordRepository(AppDbContext context) : BaseRepository<DataRecord>(context), IDataRecordRepository
 {

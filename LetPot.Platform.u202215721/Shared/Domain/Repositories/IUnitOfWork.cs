@@ -4,7 +4,7 @@ namespace LetPot.Platform.u202215721.Shared.Domain.Repositories;
 /// Represents the unit of work pattern for managing database transactions.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IUnitOfWork
 {

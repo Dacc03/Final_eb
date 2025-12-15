@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LetPot.Platform.u202215721")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9deb05d0889858d8104a8003de01ff263420d6b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("LetPot.Platform.u202215721")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LetPot.Platform.u202215721")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

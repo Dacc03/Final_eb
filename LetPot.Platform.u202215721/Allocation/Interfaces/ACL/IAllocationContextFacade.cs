@@ -4,7 +4,7 @@ namespace LetPot.Platform.u202215721.Allocation.Interfaces.ACL;
 /// Public interface for the Allocation context facade.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IAllocationContextFacade
 {

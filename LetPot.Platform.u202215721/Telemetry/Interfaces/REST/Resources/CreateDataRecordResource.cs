@@ -10,7 +10,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Interfaces.REST.Resources;
 /// <param name="OperationPhase">The operation phase (WAITING or WATERING).</param>
 /// <param name="EmittedAt">The emission date and time (format: yyyy-MM-dd HH:mm:ss).</param>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public record CreateDataRecordResource(
     string PotMacAddress,

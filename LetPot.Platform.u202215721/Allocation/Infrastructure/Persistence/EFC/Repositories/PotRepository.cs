@@ -10,7 +10,7 @@ namespace LetPot.Platform.u202215721.Allocation.Infrastructure.Persistence.EFC.R
 /// Repository implementation for pots.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public class PotRepository(AppDbContext context) : BaseRepository<Pot>(context), IPotRepository
 {

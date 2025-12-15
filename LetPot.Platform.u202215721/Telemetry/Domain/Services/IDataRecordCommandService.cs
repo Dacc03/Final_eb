@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Domain.Services;
 /// Service interface for data record commands.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public interface IDataRecordCommandService
 {

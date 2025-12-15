@@ -113,3 +113,4 @@ C:\Users\RIPLEY\RiderProjects\ eb7469u202215721\LetPot.Platform.u202215721\obj\D
 C:\Users\RIPLEY\RiderProjects\ eb7469u202215721\LetPot.Platform.u202215721\obj\Debug\net9.0\LetPot.Platform.u202215721.pdb
 C:\Users\RIPLEY\RiderProjects\ eb7469u202215721\LetPot.Platform.u202215721\obj\Debug\net9.0\LetPot.Platform.u202215721.genruntimeconfig.cache
 C:\Users\RIPLEY\RiderProjects\ eb7469u202215721\LetPot.Platform.u202215721\obj\Debug\net9.0\ref\LetPot.Platform.u202215721.dll
+C:\Users\RIPLEY\RiderProjects\ eb7469u202215721\LetPot.Platform.u202215721\obj\Debug\net9.0\LetPot.Platform.u202215721.sourcelink.json

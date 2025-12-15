@@ -7,7 +7,7 @@ namespace LetPot.Platform.u202215721.Telemetry.Infrastructure.Persistence.EFC.Co
 /// Extension methods for configuring the Telemetry context model.
 /// </summary>
 /// <remarks>
-/// Author: Deybbi Caviedes
+/// Author: Antonio Rodrigo Duran Diaz
 /// </remarks>
 public static class ModelBuilderExtensions
 {
